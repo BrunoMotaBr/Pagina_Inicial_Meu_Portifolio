@@ -2,8 +2,8 @@
     --corpo: rgb(242, 180, 190);
     --tituloClaro: rgb(28, 28, 28);
     --textoClaro: rgb(66, 66, 66);
-    --botao-principalClaro: rgb(245, 109, 132);
-    --rodapeClaro: rgb(191, 14, 191);
+    --botao-principalClaro: rgb(131, 78, 225, 0.703);
+    --rodapeClaro: rgba(131, 78, 225, 0.703);
     --transparente: transparent;
 }
 
