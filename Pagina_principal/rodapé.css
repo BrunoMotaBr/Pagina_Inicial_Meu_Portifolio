@@ -1,0 +1,26 @@
+.rodapé{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: var(--roxo--escuro);
+    align-items: center;
+    width: 100%;
+}
+.rodapé--imagem{
+    width: 35px;
+    margin-top: 0.5em;
+}
+.rodapé--lista li{
+    padding: 1em;
+    list-style: none;
+}
+.rodapé--lista--elementos{
+    color: var(--texto);
+    text-decoration: none;
+    cursor: pointer;
+}
+@media screen and (min-width: 526px) {
+    .rodapé--lista{
+        display: flex;
+    }
+}

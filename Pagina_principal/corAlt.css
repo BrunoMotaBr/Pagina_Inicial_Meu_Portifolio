@@ -1,0 +1,49 @@
+:root{
+    --corpo: rgb(242, 180, 190);
+    --tituloClaro: rgb(28, 28, 28);
+    --textoClaro: rgb(66, 66, 66);
+    --botao-principalClaro: rgb(245, 109, 132);
+    --rodapeClaro: rgb(191, 14, 191);
+    --transparente: transparent;
+}
+
+.corpo{
+    background-color: var(--corpo);
+    transition: 2s;
+}
+
+.conteudo--principal--titulo--claro{
+    color: var(--tituloClaro);
+    transition: 2s;
+}
+.conteudo--principal--texto--claro{
+    color: var(--textoClaro);
+    transition: 2s;
+}
+.conteudo--principal--botao--principal--claro{
+    background-color: var(--botao-principalClaro);
+    color: var(--corpo);
+    transition: 2s;
+}
+.conteudo--principal--botao--secundario--claro{
+    color: var(--tituloClaro);
+    background-color: var(--transparente);
+    border: solid 1px var(--tituloClaro);
+    transition: 2s;
+}
+.conteudo--principal--video--claro{
+    border:2px solid var(--botao-principalClaro);
+    transition: 2s;
+}
+.entradaTexto--claro{
+    background-color: var(--branco);
+    transition: 2s;
+}
+.rodape--claro{
+    background-color: var(--rodapeClaro);
+    transition: 2s;
+}
+.botao-enviar-claro{
+    color: var(--botao-principalClaro);
+    transition: 2s;
+}

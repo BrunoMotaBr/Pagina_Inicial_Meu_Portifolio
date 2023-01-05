@@ -1,0 +1,19 @@
+.slides{
+    margin-top: 1em;
+    border: var(--branco) 2px solid;
+    padding: 1em 1em;
+    border-radius: 16px;
+}
+.slide{
+    display: none;
+}
+.ativo{
+    display:block;
+    width: 100%;
+    border-radius: 16px;
+}
+.slides__principal{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}

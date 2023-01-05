@@ -1,0 +1,39 @@
+.sujestoes{
+    color:var(--texto);
+}
+.entrada--de--texto{
+    display: inline;
+    width: 100%;
+    font-size:22px;
+    border: none;
+    background-color: var(--preto);
+    color: var(--texto);
+    resize: none;
+}
+.sujestoes--nome{
+    margin: 0.5em 0;
+    width: 75%;
+}
+.conteudo--secundario--botaoEnviar{
+    border: none;
+    background-color: var(--cor--botao);
+    width: 50px;
+    color: var(--cor--pagina);
+    cursor: pointer;
+    height: 20px;
+    margin: 0.5em 1em 0 0;
+    font-weight: 700;
+}
+.conteudo--secundario--botaoEnviar:hover{
+    height: 21px;
+    width: 51px;
+}
+.conteudo--secundario--botaoEnviar:active{
+    background-color: var(--branco);
+}
+.conteudo--secundario--label{
+    display: block;
+}
+.conteudo--secundario--sujestoes{
+    text-align: left;
+}
